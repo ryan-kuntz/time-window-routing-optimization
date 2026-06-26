@@ -39,22 +39,15 @@ With 7 eligible homes after filtering, the brute force solver finds a route visi
 ```bash
 # Create and activate virtual environment
 python -m venv venv
-
 # Mac/Linux
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
-
-
-
-
-python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook notebooks/home_tour_exploration.ipynb
 ```
 
-No API keys are required — geocoding and routing use free public services (US Census, Nominatim, OSRM).
+No API keys are required for now — geocoding and routing currently use free public services (US Census, Nominatim, OSRM).
 
 ## How It Works
 
