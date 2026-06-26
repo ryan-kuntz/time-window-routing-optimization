@@ -1,0 +1,8 @@
+geopy
+ipython
+ipywidgets
+matplotlib
+numpy
+pandas
+requests
+scipy
